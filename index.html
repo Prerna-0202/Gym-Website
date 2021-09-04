@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            color: azure;
+            background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=40');
+            font-family: 'Balsamiq Sans', cursive;
+        }
+      
+        .left {
+            /* border: 2px solid white; */
+            display: inline-block;
+            bottom: 70px;
+            margin:0px;
+            padding:0px;
+            line-height: 10px;
+
+        }
+
+        .mid {
+             /* border:2px solid rgb(0, 255, 149);  */
+            background-color:transparent;
+            border-radius: 20px;
+            display: inline-block;
+            width: 50%;
+            position: relative;
+            bottom: 50px;
+            left: 120px;
+            margin: 8px auto;
+            padding: 7px;
+            font-size:34px;
+
+        }
+
+        .right {
+            /* float:right; */
+            /* border: 2px solid rgb(22, 172, 231); */
+          
+            position: absolute;
+            top: 0px;
+            right: 34px;
+            display: inline-block;
+            border-radius: 24px;
+           
+
+        }
+
+        a {
+            color: rgb(215, 235, 31);
+            padding:10px;
+            text-decoration:none;
+            font-size: 25px;
+        }
+        a:hover{
+            color:green;
+        }
+        a:active{
+            color:aquamarine;
+        }
+        h1{
+            padding:0px;
+        }
+        .btn{
+            cursor:pointer;
+            background-color: rgb(219, 184, 132);
+            padding:4px;
+            margin:2px;
+            position:relative;
+            left:80px;
+            width:31%;
+        }
+        .btn:hover{
+            background-color: brown;
+        }
+        .container{
+            border:2px solid rgb(3, 15, 8);
+            position:relative;
+            height:250px;
+            left:50px;
+            width:34%;
+            border-radius: 24px;
+        }
+        .formgroup{
+            position: relative;
+            left:30px;
+            margin:auto;
+
+        }
+    .container  h2{
+            text-decoration:underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img
+                src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=90&q=40">
+            <div style="font-size:20px; padding:4px;">Fitness Gym</div> 
+        </div>
+        <div class="mid">
+            <ul class="navbar"> 
+                <a href="#">Home</a>
+               <a href="#">About</a>
+               <a href="#">Fitness   Calculator</a>
+                <a href="#">Contact us</a>
+             </ul> 
+        </div>
+        <div class="right">
+        <button class="btn">Call now</button>
+        <button class="btn">Search More</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2 >Join The Best Gym Of Delhi Now</h2>
+        <form action="noactionphp">
+         <div class="formgroup">
+           Name: <input type="text"name=" " placeholder= "enter your name">
+         </div>
+         <div class="formgroup">
+          Addr:   <input type="text"name="" placeholder= "enter your address">
+         </div>
+         <div class="formgroup">
+           Num : <input type="text"name="" placeholder= "enter your mobile" >
+         </div>
+         <div class="formgroup">
+          Email:  <input type="text"name="" placeholder= "enter your email">
+         </div>
+         <button class="btn" style="color:rgb(107, 29, 94)";>Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>
